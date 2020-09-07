@@ -1,0 +1,42 @@
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  float: left;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  width: 38px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.actions > button {
+  margin-top: 10px;
+}
+
+.actions button + button {
+  margin-top: 7px;
+}
